@@ -37,8 +37,9 @@ renewal-gate (React component, one per app)
 
 1. Add a row to the shared spreadsheet: a fresh `customerId`, `Name`,
    `Next Renewal Date`, `Amount`.
-2. Copy `renewal-gate/` into the new project and wrap its root — see
-   [`renewal-gate/README.md`](./renewal-gate/README.md).
+2. Add this repo as a git submodule in the new project and wrap its root
+   with `RenewalGate` — see [`renewal-gate/README.md`](./renewal-gate/README.md)
+   for the exact commands and a real example (the Chinese Food Truck app).
 
 That's it — no changes to `renewal-service` itself.
 
