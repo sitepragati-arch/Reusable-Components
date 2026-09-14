@@ -39,7 +39,7 @@ const styles: Record<string, CSSProperties> = {
   amountLabel: { fontSize: 14, color: "#737373" },
   amountValue: { fontSize: 24, fontWeight: 700, color: "#c2410c" },
   qrLabel: { fontWeight: 600, fontSize: 14, marginBottom: 8 },
-  qrImg: { borderRadius: 8 },
+  qrImg: { display: "block", margin: "0 auto", borderRadius: 8 },
   note: { fontSize: 13, color: "#525252", margin: "16px 0", lineHeight: 1.5 },
   button: {
     width: "100%",
