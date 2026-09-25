@@ -78,7 +78,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     customerId="YOUR_APP_ID_HERE"   // this app's row key in the shared sheet
     appName="Your App Name"          // optional — falls back to the sheet's Name column
     logoUrl="/logo.png"              // optional
-    supportEmail="sitepragati@gmail.com"
+    supportEmail="support@sitepragati.in"
   >
     <App />
   </RenewalGate>
@@ -100,7 +100,7 @@ import { useBranding } from "./BrandingContext";
 
 const RENEWAL_API_BASE = "https://cf-relay-svc.swapniluser100.workers.dev";
 const CUSTOMER_ID = "YOUR_APP_ID_HERE";
-const SUPPORT_EMAIL = "sitepragati@gmail.com";
+const SUPPORT_EMAIL = "support@sitepragati.in";
 
 export function AppRenewalGate({ children }: { children: ReactNode }) {
   const { settings } = useBranding();
